@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bg-color: #ffffff;
+    --text-color: #021526;
+    --button-color: #021526;
+    --footer-color: #021526;
+    
+
+    --grid-bg: repeating-linear-gradient(
+        #efefef, 
+        #efefef 1px, 
+        transparent 1px, 
+        transparent 40px
+    ),
+    repeating-linear-gradient(
+        to right, 
+        #efefef, 
+        #efefef 1px, 
+        transparent 1px, 
+        transparent 40px
+    );
+    
+    
+}
+
+.dark{
+    --bg-color: #021526;
+    --text-color: #ffffff;
+    --button-color: #ffffff;
+    --footer-color: #ffffff;
+    --div-color: #fff;
+
+    --grid-bg: repeating-linear-gradient(
+        #333, 
+        #333 1px, 
+        transparent 1px, 
+        transparent 40px
+    ),
+    repeating-linear-gradient(
+        to right, 
+        #333, 
+        #333 1px, 
+        transparent 1px, 
+        transparent 40px
+    );
+}
+
+body {
+    background: var(--grid-bg), var(--bg-color);
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-color);
+    transition: background-color 1s, color 1s, background 1s;
+    scroll-behavior: smooth;
+  }
+button{
+    background-color: var(--button-color);
+    color: var(--bg-color);
+    transition: background-color 1s, color 1s;
+}
+
+div{
+    background-color: var(--div-color);
+}
