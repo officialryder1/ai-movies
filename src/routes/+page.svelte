@@ -48,7 +48,7 @@
 
 
 <ThemeToggle/>
-<h1>AI Movie Suggester</h1>
+<h1>Discova Similar Movie</h1>
 <div class="typing-container">
     <p class="typing-animation">
         we suggest a similar movie to your input.
