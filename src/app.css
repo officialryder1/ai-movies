@@ -53,13 +53,13 @@ body {
     background: var(--grid-bg), var(--bg-color);
     font-family: "Open Sans", sans-serif;
     color: var(--text-color);
-    transition: background-color 1s, color 1s, background 1s;
+    transition: background-color 0.5s, color 0.5s, background 0.5s;
     scroll-behavior: smooth;
   }
 button{
     background-color: var(--button-color);
     color: var(--bg-color);
-    transition: background-color 1s, color 1s;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 div{
